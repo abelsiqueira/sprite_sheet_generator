@@ -1,2 +1,7 @@
+EXEC = sprite_sheet_generator
+
 all:
-	g++ -o main main.cpp -Wall -Wextra -lallegro -lallegro_image
+	g++ -o $(EXEC) main.cpp -Wall -Wextra -lallegro -lallegro_image -ggdb
+
+install:
+	cp $(EXEC) /usr/bin

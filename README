@@ -1,0 +1,13 @@
+Sprite Sheet Generator - Copyright Abel Soares Siqueira
+LICENSE GPL v3.0
+
+Use this software to create a tile sheet from Reiner's Tile Set
+images (http://www.reinerstilesets.de)
+You must have all 8 directions of the sprite (n, ne, e, se, s, sw, w, nw)
+
+Usage: sprite_sheet_generator <sprite_name> [options]
+Options: 
+  -frames=N       Set number of frames to N (default: 8)
+  -type=ext       Set file extension to ext (default: bmp)
+  -output=name    Set output file to name.<type>
+  -h,--help       Show this help
